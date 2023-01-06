@@ -1,0 +1,117 @@
+body {
+	background: #000203;
+}
+
+.logform{
+    width: 100%;
+    padding-bottom: 200px;
+	height: 300%;
+    background: #000000;
+    position: relative;
+	padding-top: 100px;
+}
+
+.logform #logform{
+    display: block;
+    width: 509px;
+    height: 100px;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 0 20px;
+    background: #000000;
+    color: #ffffff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.logform #logform::-webkit-input-placeholder{
+   color: #95badf;
+}
+
+.logform #logform:-moz-placeholder{ 
+   color: #95badf;  
+}
+
+.logform #logform::-moz-placeholder{ 
+   color: #95badf;  
+}
+
+.logform #logform:-ms-input-placeholder{  
+   color: #95badf;  
+} 
+
+.logform #submit_logform{
+    display: none;
+}
+
+.logform .float{
+    float: left;
+}
+
+.search.search_fields{
+    overflow: hidden;
+    border-bottom: 1px solid #aac8e4;
+}
+
+.logform.field_sep{
+    display: inline-block;
+    width: 1px;
+    height: 60px;
+    border: 0;
+    background: #aac8e4;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+.logform.arrow{
+    display: block;
+    width: 14px;
+    height: 9px;
+    background: url('../img/search_arrow.png') no-repeat;
+    position: absolute;
+    top: -8px;
+    right: 6px;
+}
+
+hr.form_vert{
+    display: inline-block;
+    width: 1px;
+    height: 60px;
+    border: 0;
+    background: #aac8e4;
+    margin: 20px 0 0 0;
+    padding: 0;
+	float: left;
+}
+
+hr.form_horiz{
+	color: #aac8e4;
+	background-color: #aac8e4;
+    height: 1px;
+	border: 0;
+	width: 1000px;
+	float: left;
+
+	}
+
+	
+.form_button{
+
+	border: solid 0px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size : 20px;
+	font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+	padding : 10px 40px;
+	background-color: #666464;
+	float: left;
+
+}
+
+a.form_button {
+text-decoration: none;
+}
